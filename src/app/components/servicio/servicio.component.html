@@ -1,0 +1,37 @@
+<section id="historia" class="padded">
+    <div class="container">
+        <h2>Servicio Cosméticos</h2>
+
+        <div class="row  row-cols-md-3 g-4">
+            <div class="col" *ngFor="let itemServicio of listaServicio">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="{{itemServicio.image_link}}" class=" img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{itemServicio.brand}}</h5>
+                        <p class="card-text">{{itemServicio.description}}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">{{itemServicio.name}}</li>
+
+                    </ul>
+                    <div class="card-body ">
+
+
+                        <a href="#" class="card-link btn btn-primary">COMPRAR</a>
+                        <a href="#" class="card-link ">{{itemServicio.price_sign}}{{itemServicio.price}}.00</a>
+                    </div>
+                </div>
+                <!-- <div class="card">
+                    <img src="{{itemServicio.image_link}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{itemServicio.brand}}</h5>
+                        <h6 class="card-text">{{itemServicio.name}} {{itemServicio.price}} {{itemServicio.description}}</h6>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+
+    </div>
+</section>

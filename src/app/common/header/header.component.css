@@ -1,0 +1,33 @@
+h1 {
+    margin-bottom: 0;
+}
+
+#main-header p {
+    margin-bottom: 0;
+}
+
+.colornav .nav-link {
+    font-size: 13px;
+    color: #fff;
+}
+
+.redes-iconos {
+    font-size: 15px;
+    margin-right: 800px;
+    margin-top: 7px;
+    color: #eaa636;
+}
+
+.face {
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.twit {
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.instag {
+    cursor: pointer;
+}

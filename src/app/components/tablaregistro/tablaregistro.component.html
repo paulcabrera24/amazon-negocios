@@ -1,0 +1,25 @@
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th>Cod</th>
+
+            <th>Canción</th>
+            <th>Género</th>
+            <th>Artista</th>
+            <th>País</th>
+            <th>Idioma</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let itemCancion of listaTablaregistro" (click)="seleccionar(itemCancion)" [class.table-warning]="itemCancion=== CancionElegida">
+            <td>{{itemCancion.cod}}</td>
+
+            <td>{{itemCancion.nombre}}</td>
+            <td>{{itemCancion.genero}}</td>
+            <td>{{itemCancion.artista}}</td>
+            <td>{{itemCancion.pais}}</td>
+            <td>{{itemCancion.idioma}}</td>
+
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,37 @@
+<section id="colaboradores" class="padded">
+    <div class="container">
+        <h2>Culturas Antiguas</h2>
+        <div class="row">
+            <div class="col-sm-8">
+                <table class="table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>cod</th>
+                            <th>Nombre</th>
+                            <th>Antiguedad</th>
+                            <th>País</th>
+                            <th>Continente</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let itemCultura of listaCulturas" (click)="seleccionar(itemCultura)" [class.table-warning]="itemCultura=== CulturaElegida">
+
+                            <td>{{itemCultura.id}}</td>
+                            <td>{{itemCultura.nombres}}</td>
+                            <td>{{itemCultura.antiguedad}}</td>
+                            <td>{{itemCultura.pais}}</td>
+                            <td>{{itemCultura.continente}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+
+            </div>
+            <div class="col-md-3" *ngIf="CulturaElegida">
+                <h4>{{CulturaElegida.nombres}}</h4>
+                <p>{{CulturaElegida.pais}} <br>{{CulturaElegida.continente}}</p>
+                <img src={{CulturaElegida.foto}} alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,76 @@
+.banda-banner {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+    background-color: #eaa636;
+}
+
+.d-flex .p-2 {
+    color: #ffffff;
+}
+
+.btn-contacto2 {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    outline: 0;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 11px 30px;
+    width: 210px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    font-family: "Jost";
+    margin-left: 12px;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+.btn-contacto2:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.4s;
+}
+
+.p-title {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 10px;
+    color: #eaa636;
+}
+
+.linea {
+    width: 100px;
+    height: 3px;
+    border-top: solid 2px #333333;
+    border-left: none;
+    border-right: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-color: #eaa636;
+}
+
+.sm-left {
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.d-flex .col-md-8 {
+    line-height: 27px;
+    margin-top: 20px;
+    color: #707070;
+}
+
+.d-flex .col-md-4 h2 {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -1px
+}

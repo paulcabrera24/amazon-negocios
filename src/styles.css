@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 32px;
+    letter-spacing: -2px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+#body {
+    background-color: #eeeeee;
+}
+
+#examen {
+    background-color: #eeeeee;
+}
+
+#main-header {
+    padding: 3px;
+    background-color: #000000;
+}
+
+.padded {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}

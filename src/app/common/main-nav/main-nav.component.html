@@ -1,0 +1,78 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/amazon2.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#body">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#examen">Acerca</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Consolas
+                            </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Play Station 4</a></li>
+                        <li><a class="dropdown-item" href="#">Play Station 5</a></li>
+                        <li><a class="dropdown-item" href="#">Play Station VR</a></li>
+                        <li><a class="dropdown-item" href="#">Xbox Serie x</a></li>
+                        <li><a class="dropdown-item" href="#">Nintendo Switch</a></li>
+                        <li><a class="dropdown-item" href="#">Steam Deck</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Portátiles
+                       </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Laptos</a></li>
+                        <li><a class="dropdown-item" href="#">Macs</a></li>
+                        <li><a class="dropdown-item" href="#">UltraBooks</a></li>
+                        <li><a class="dropdown-item" href="#">Laptops Gamers</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Accesorios
+                           </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Audifonos</a></li>
+                        <li><a class="dropdown-item" href="#">Micrófonos</a></li>
+                        <li><a class="dropdown-item" href="#">Monitores</a></li>
+                        <li><a class="dropdown-item" href="#">Mouse y teclado Gamer</a></li>
+                        <li><a class="dropdown-item" href="#">Parlantes y Componentes</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Examen
+                           </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" [routerLink]="['/arreglos']" href="#">Arreglos</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['/servicio']" href="#">Servicio</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['/registro']" href="#">Registro</a></li>
+                        <li><a class="dropdown-item" href="#">Contactanos</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <fa-icon class="fono" [icon]="faPhoneAlt"></fa-icon>
+        <div class="telefono">
+
+
+            <p class="lh-sm">Necesitas ayuda?<br> <b> 1 200 300 9000</b>
+            </p>
+
+        </div>
+    </div>
+
+</nav>
